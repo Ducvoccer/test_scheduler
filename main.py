@@ -2,7 +2,7 @@
 from fbchat.models import *
 from fbchat import log, Client
 import json
-
+import time
 # list_emails = ['phimtonghop37@gmail.com',
 #                'duc.nt161113@sis.hust.edu.vn', 'voccer.it@gmail.com']
 email = 'voccer.it@gmail.com'
@@ -25,3 +25,5 @@ client.send(Message(text='hi'),
             thread_id='100009594708355',
             thread_type=ThreadType.USER
             )
+        
+time.sleep(200)
