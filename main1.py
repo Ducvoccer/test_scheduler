@@ -21,7 +21,7 @@ except Exception as e:
 
 client = Client(email, password, user_agent=user_agent,
                 session_cookies=session_cookies)
-client.send(Message(text='main1'),
+client.send(Message(text='hello1'),
             thread_id='100009594708355',
             thread_type=ThreadType.USER
             )
