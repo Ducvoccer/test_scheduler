@@ -26,4 +26,4 @@ client.send(Message(text='hi voccer'),
             thread_type=ThreadType.USER
             )
         
-time.sleep(200)
+time.sleep(100)
