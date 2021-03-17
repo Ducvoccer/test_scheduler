@@ -26,5 +26,5 @@ while True:
             thread_id='100009594708355',
             thread_type=ThreadType.USER
             )
-    time.sleep(5)
+    time.sleep(10)
         
